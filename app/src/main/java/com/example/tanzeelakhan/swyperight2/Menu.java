@@ -4,6 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.format.DateFormat;
 import android.view.View;
+import android.view.ViewDebug;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -24,16 +25,28 @@ public class Menu extends AppCompatActivity {
     private TextView remainTextView;
 
     public int swipesLeft(int planType) {
-        Calendar c = Calendar.getInstance();
-        System.out.println("Current time => " + c.getTime());
+        Calendar cal = Calendar.getInstance();
+        cal.set(Calendar.YEAR, 2016);
+        cal.set(Calendar.MONTH, Calendar.SEPTEMBER);
+        cal.set(Calendar.DAY_OF_MONTH, 18);
+        Date startOfSwipes = cal.getTime(); // Create a date set to start of swipes
+        Date now = new Date(); // Create a date set to current
 
-        //firstDayOfSchool = new SimpleDateFormat("18-09-2016");
-        //Date date = new Date(16, 9, 18);
-        //long timePassed = date.getTime();
-        SimpleDateFormat df = new SimpleDateFormat("dd-MM-yyyy");
-        String formattedDate = df.format(c.getTime());
-        remainTextView.setText(formattedDate);
-        return 0;
+        long daysSinceSwipesBegan = (now.getTime() - startOfSwipes.getTime())/86400000; // Divide difference in mseconds by the mseconds in a day
+
+        int totalSwipes = 0;
+        int swipesPerDay = 0;
+
+        if (planType == 19) {
+            totalSwipes = 213;
+            swipesPerDay = 3;
+        }
+        if (planType == 14) {
+            totalSwipes = 158;
+            swipesPerDay = 2;
+        }
+
+        return (totalSwipes - ((int) daysSinceSwipesBegan * swipesPerDay));
     }
 
     @Override
@@ -48,13 +61,8 @@ public class Menu extends AppCompatActivity {
         button4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //what to do on click?
-//                plan = 19;
-//                plan*=10;
                 plan = 19;
-                
-                swipesLeft(plan);
-
+                remainTextView.setText(Integer.toString(swipesLeft(plan)));
             }
         });
 
@@ -62,7 +70,7 @@ public class Menu extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 plan = 14;
-                remainTextView.setText("140");
+                remainTextView.setText(Integer.toString(swipesLeft(plan)));
 
             }
         });
