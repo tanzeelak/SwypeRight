@@ -1,1 +1,3 @@
-yayeay
+int main () {
+
+}
