@@ -40,7 +40,8 @@
             android:layout_alignParentStart="true"
             android:layout_marginStart="57dp"
             android:layout_marginTop="31dp"
-            android:id="@+id/allTes" />
+            android:id="@+id/allTes"
+            android:text="Enter Swipes Remaining" />
 
         <Button
             android:text="19P"
@@ -55,10 +56,10 @@
             android:id="@+id/button5" />
 
         <TextView
-            android:text="TextView"
+            android:text="Swipes left: "
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/remainTextView"
+            android:id="@+id/swipesLeftText"
             android:layout_gravity="center"/>
 
 
