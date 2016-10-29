@@ -35,6 +35,19 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                //make Intent to go to Menu Activity
+                Intent intent = new Intent(MainActivity.this, RealMenu.class);
+
+                //start the activity with the Intent
+                startActivity(intent);
+
+            }
+        });
+
 
     }
 }

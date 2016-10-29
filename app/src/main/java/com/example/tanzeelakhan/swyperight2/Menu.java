@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 public class Menu extends AppCompatActivity {
 
-    private TotalText totalText;
+    private TextView allTes;
     private Button button4;
     private Button button5;
 
@@ -22,7 +22,7 @@ public class Menu extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
 
-        totalText = (TotalText) findViewById(R.id.totalText);
+        allTes = (TextView) findViewById(R.id.allTes);
         button4 = (Button) findViewById(R.id.button4);
         button5 = (Button) findViewById(R.id.button5);
         remainTextView = (TextView) findViewById(R.id.remainTextView);
@@ -31,10 +31,8 @@ public class Menu extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //what to do on click?
-//                plan = 19;
-//                plan*=10;
                 plan = 19;
-                
+
                 remainTextView.setText("190");
 
             }
