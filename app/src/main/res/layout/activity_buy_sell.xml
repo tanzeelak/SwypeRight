@@ -11,11 +11,46 @@
     tools:context="com.example.tanzeelakhan.swyperight2.BuySell">
 
     <TextView
-        android:text="TextView"
+        android:text="Enter the item you wish to sell/buy"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/buysellheader"
         android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text=""
+        android:ems="10"
+        android:layout_below="@+id/buysellheader"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="36dp"
-        android:id="@+id/buysellheader" />
+        android:id="@+id/input" />
+
+    <Button
+        android:text="Buy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/input"
+        android:layout_alignStart="@+id/buysellheader"
+        android:layout_marginTop="13dp"
+        android:id="@+id/btnBuy" />
+
+    <Button
+        android:text="Sell"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSell"
+        android:layout_alignBaseline="@+id/btnBuy"
+        android:layout_alignBottom="@+id/btnBuy"
+        android:layout_alignEnd="@+id/buysellheader" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/btnBuy"
+        android:id="@+id/tradeList"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
