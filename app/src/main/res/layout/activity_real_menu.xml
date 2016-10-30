@@ -26,6 +26,7 @@
         android:layout_marginTop="11dp"
         android:id="@+id/bcafbtn"
         android:layout_below="@+id/dnbtn"
+        android:background="#FF7F50"
         android:layout_alignStart="@+id/dnbtn" />
 
     <Button
@@ -34,6 +35,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/cafebtn"
         android:layout_below="@+id/realmenuheader"
+        android:background="#FF7F50"
         android:layout_alignStart="@+id/realmenuheader" />
 
     <Button
@@ -43,6 +45,7 @@
         android:layout_marginTop="12dp"
         android:id="@+id/rendebtn"
         android:layout_below="@+id/cafebtn"
+        android:background="#FF7F50"
         android:layout_alignStart="@+id/cafebtn" />
 
     <Button
@@ -52,6 +55,7 @@
         android:layout_marginTop="14dp"
         android:id="@+id/dnbtn"
         android:layout_below="@+id/rendebtn"
+        android:background="#FF7F50"
         android:layout_alignStart="@+id/rendebtn" />
 
 </RelativeLayout>

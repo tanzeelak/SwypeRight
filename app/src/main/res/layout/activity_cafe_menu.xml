@@ -9,6 +9,15 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.tanzeelakhan.swyperight2.CafeMenu">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
 
     <TextView
         android:text="Cafe 1919 Menu"
@@ -35,5 +44,6 @@
         android:layout_alignStart="@+id/cafepizza"
         android:layout_marginTop="77dp"
         android:id="@+id/cafedes" />
-
+        </LinearLayout>
+    </ScrollView>
 </RelativeLayout>

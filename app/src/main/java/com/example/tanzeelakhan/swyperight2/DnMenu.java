@@ -22,17 +22,17 @@ public class DnMenu extends AppCompatActivity {
 
 
         dnbf.setText("Breakfast\n" +
-                "Cold Cereal\n" +
-                "Ham & Cheese Croissant\n" +
-                "Spinach & Cheese Crossiant\n" +
-                "Steel-Cut Oatmeal Cup\n" +
+                "Classic Burger\n" +
+                "Classic Cheeseburger\n" +
+                "Breakfast Burger\n" +
+                "Chicken Tenders\n" +
                 "Yogurt Cup\n" +
                 "Berry Yogurt Bowl\n" +
                 "Fresh Fruit Cup\n" +
                 "Mango Pineapple Parfait\n" +
                 "Yogurt Bowl w/ Banana, Pistachio & Pomagranate Seeds\n");
 
-        dnlun.setText("Lunch/Dinner\n" +
+        dnlun.setText("Lunch\n" +
                 "Avocado BLT\n" +
                 "BBQ Beef Brisket\n" +
                 "Ham & Swiss\n" +
@@ -41,7 +41,7 @@ public class DnMenu extends AppCompatActivity {
                 "Tuna\n" +
                 "Vegan BBQ\n");
 
-        dndin.setText("Breakfast\n" +
+        dndin.setText("Dinner\n" +
                 "Cold Cereal\n" +
                 "Ham & Cheese Croissant\n" +
                 "Spinach & Cheese Crossiant\n" +

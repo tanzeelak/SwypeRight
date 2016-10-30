@@ -23,16 +23,16 @@ public class CafeMenu extends AppCompatActivity {
                 "Carciofo\n" +
                 "Genova\n" +
                 "Pepperoni\n" +
-                "Yogurt Cup\n" +
-                "Berry Yogurt Bowl\n" +
-                "Fresh Fruit Cup\n" +
-                "Mango Pineapple Parfait\n" +
-                "Yogurt Bowl w/ Banana, Pistachio & Pomagranate Seeds\n");
+                "Salsiccia\n" +
+                "Tre Formaggi\n" +
+                "Verdura Arrosto\n" +
+                "Campania\n" +
+                "Italiano\n");
 
-        cafedes.setText("Deserts\n" +
-                "Avocado BLT\n" +
-                "BBQ Beef Brisket\n" +
-                "Ham & Swiss\n" +
+        cafedes.setText("Desserts\n" +
+                "Gelato\n" +
+                "Affogato Italiano\n" +
+                "Bacca Parfait\n" +
                 "Roast Beef & Cheddar\n" +
                 "Roasted Turkey & Provolone\n" +
                 "Tuna\n" +
