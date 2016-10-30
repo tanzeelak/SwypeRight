@@ -19,7 +19,7 @@
         android:layout_centerHorizontal="true" />
 
     <Button
-        android:text="Buy"
+        android:text="Ask"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/input"
@@ -28,7 +28,7 @@
         android:id="@+id/btnBuy" />
 
     <Button
-        android:text="Sell"
+        android:text="Donate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/btnSell"
