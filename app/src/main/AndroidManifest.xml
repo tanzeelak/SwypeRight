@@ -24,7 +24,8 @@
         <activity android:name=".BCafMenu" />
         <activity android:name=".CafeMenu" />
         <activity android:name=".RendeMenu" />
-        <activity android:name=".DnMenu"></activity>
+        <activity android:name=".DnMenu" />
+        <activity android:name=".BuySell"></activity>
     </application>
 
 </manifest>
