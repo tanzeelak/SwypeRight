@@ -59,6 +59,18 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        button3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                //make Intent to go to Menu Activity
+                Intent intent = new Intent(MainActivity.this, BuySell.class);
+
+                //start the activity with the Intent
+                startActivity(intent);
+
+            }
+        });
 
     }
 }
