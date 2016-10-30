@@ -20,7 +20,11 @@
             android:name=".howmany"
             android:label="@string/title_activity_howmany"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".RealMenu"></activity>
+        <activity android:name=".RealMenu" />
+        <activity android:name=".BCafMenu" />
+        <activity android:name=".CafeMenu" />
+        <activity android:name=".RendeMenu" />
+        <activity android:name=".DnMenu"></activity>
     </application>
 
 </manifest>
