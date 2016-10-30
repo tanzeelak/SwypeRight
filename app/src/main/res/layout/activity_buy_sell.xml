@@ -42,7 +42,7 @@
         android:layout_marginTop="24dp"
         android:layout_below="@+id/btnBuy"
         android:id="@+id/tradeList"
-        android:background="#C0C0C0"
+        android:background="#FF7F50"
         android:layout_centerHorizontal="true" />
 
     <EditText
@@ -51,7 +51,7 @@
         android:inputType="textPersonName"
         android:text=""
         android:ems="10"
-        android:background="#C0C0C0"
+        android:background="#FF7F50"
         android:id="@+id/input"
         android:layout_below="@+id/buysellheader"
         android:layout_centerHorizontal="true"
