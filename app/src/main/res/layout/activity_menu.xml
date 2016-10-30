@@ -29,31 +29,42 @@
             android:layout_gravity="center"
             android:layout_marginTop="71dp"
             android:id="@+id/textView"
-            android:text="How Many Swipes On You?" />
+            android:text="How Many Swipes You Use So Far?" />
 
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:inputType="textPersonName"
+            android:inputType="number"
             android:ems="10"
             android:layout_below="@+id/textView"
             android:layout_alignParentStart="true"
             android:layout_marginStart="57dp"
             android:layout_marginTop="31dp"
-            android:id="@+id/allTes"
-            android:text="Enter Swipes Remaining" />
+            android:id="@+id/swipesUsed"
+            tools:text="Enter Swipes Used" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:text="19P"
+                android:layout_width="173dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/button4" />
+
+            <Button
+                android:text="14P"
+                android:layout_width="171dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/button5" />
+
+        </LinearLayout>
 
         <Button
-            android:text="19P"
+            android:text="Calculate Extra Swipes"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/button4" />
-
-        <Button
-            android:text="14P"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/button5" />
+            android:id="@+id/btnCalculateSwipes" />
 
         <TextView
             android:text="Swipes left: "
