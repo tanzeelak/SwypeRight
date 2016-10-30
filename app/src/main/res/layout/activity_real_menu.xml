@@ -11,11 +11,47 @@
     tools:context="com.example.tanzeelakhan.swyperight2.RealMenu">
 
     <TextView
-        android:text="TextView"
+        android:text="Select Your Restaurant"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="52dp"
         android:id="@+id/realmenuheader" />
+
+    <Button
+        android:text="Bruin Cafe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:id="@+id/bcafbtn"
+        android:layout_below="@+id/dnbtn"
+        android:layout_alignStart="@+id/dnbtn" />
+
+    <Button
+        android:text="Cafe 1919"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cafebtn"
+        android:layout_below="@+id/realmenuheader"
+        android:layout_alignStart="@+id/realmenuheader" />
+
+    <Button
+        android:text="Rendezvous"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:id="@+id/rendebtn"
+        android:layout_below="@+id/cafebtn"
+        android:layout_alignStart="@+id/cafebtn" />
+
+    <Button
+        android:text="De Neve Late Night"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:id="@+id/dnbtn"
+        android:layout_below="@+id/rendebtn"
+        android:layout_alignStart="@+id/rendebtn" />
+
 </RelativeLayout>

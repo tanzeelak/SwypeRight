@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_rende_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.tanzeelakhan.swyperight2.RendeMenu">
+
+    <TextView
+        android:text="Rendezvous Menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="123dp"
+        android:layout_marginTop="52dp"
+        android:id="@+id/rendeheader" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rendeheader"
+        android:layout_alignStart="@+id/rendeheader"
+        android:layout_marginTop="37dp"
+        android:id="@+id/rendewest" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rendewest"
+        android:layout_alignStart="@+id/rendewest"
+        android:layout_marginTop="58dp"
+        android:id="@+id/rendeeast" />
+</RelativeLayout>
