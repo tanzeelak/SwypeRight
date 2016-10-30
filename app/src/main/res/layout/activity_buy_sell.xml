@@ -18,16 +18,6 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:text=""
-        android:ems="10"
-        android:layout_below="@+id/buysellheader"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/input" />
-
     <Button
         android:text="Buy"
         android:layout_width="wrap_content"
@@ -52,5 +42,18 @@
         android:layout_marginTop="24dp"
         android:layout_below="@+id/btnBuy"
         android:id="@+id/tradeList"
+        android:background="#FF7F50"
         android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text=""
+        android:ems="10"
+        android:background="#FF7F50"
+        android:id="@+id/input"
+        android:layout_below="@+id/buysellheader"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
 </RelativeLayout>
